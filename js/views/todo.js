@@ -1,6 +1,9 @@
 // Obviously we are using jquery
 import $ from 'jquery';
 
+// We are using React
+import React from 'react';
+import ReactDom from 'react-dom';
 
 // This just allows us to call $(form).serializeJSON()
 // and get back a JSON object of the form data.
@@ -62,6 +65,9 @@ function wrapper() {
     </footer>
   `;
 }
+
+
+
 
 
 
